@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "20231_fatec_ipi_pdm_tarde_chatgpt_sentimentos",
+    "dateExported": "2023-05-19T21:13:27.235Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0b1fe043-9f1b-463a-9f04-c293cf69b47f",
+            "colId": "24c4da00-18fe-47a6-8725-cf017d4cdb9e",
+            "containerId": "",
+            "name": "Analisar sentimento",
+            "url": "http://localhost:4000/sentimentos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-19T20:38:46.681Z",
+            "modified": "2023-05-19T20:52:59.571Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"texto\": \"Estou muuuitooo feliz\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
